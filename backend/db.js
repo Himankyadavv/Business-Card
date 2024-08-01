@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { array } = require('./input');
 
-mongoose.connect("mongodb+srv://Himank:Himank123@cluster-0.tbaskcb.mongodb.net/card");
+mongoose.connect(""); // paste your mongo db url 
 
 const dataschema =new mongoose.Schema({
     name: {type: String},
